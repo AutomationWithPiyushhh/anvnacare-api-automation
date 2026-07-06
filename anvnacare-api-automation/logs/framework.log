@@ -1,0 +1,731 @@
+2026-07-06 11:33:06.589 [main] INFO  listeners.TestListener - ================ Test Suite: 'Healthcare Core API Tests' Started ================
+2026-07-06 11:33:07.183 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:33:07.185 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:33:07.183 [TestNG-test-Healthcare Core API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartUnauthenticatedFails
+2026-07-06 11:33:07.186 [TestNG-test-Healthcare Core API Tests-2] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:33:07.205 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:33:07.205 [TestNG-test-Healthcare Core API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartUnauthenticatedFails
+2026-07-06 11:33:07.205 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:33:07.205 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:33:14.341 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:33:14.348 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:33:14.361 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:33:14.364 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:33:15.397 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:33:15.397 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:33:15.398 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:33:15.399 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:33:16.116 [TestNG-test-Healthcare Core API Tests-4] ERROR listeners.TestListener - Test Case: testAddToCartUnauthenticatedFails - FAILED. Reason: Success should be false for unauthenticated session expected [false] but found [true]
+2026-07-06 11:33:16.126 [TestNG-test-Healthcare Core API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:33:16.126 [TestNG-test-Healthcare Core API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:33:16.127 [TestNG-test-Healthcare Core API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:33:16.129 [TestNG-test-Healthcare Core API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:33:16.170 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:33:16.171 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:33:16.174 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:33:16.177 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:33:17.118 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:33:17.119 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:33:17.121 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:33:17.122 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:33:17.753 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 59
+2026-07-06 11:33:17.970 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:33:17.970 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:33:17.995 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:33:17.997 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:33:18.220 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:33:18.221 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:33:18.224 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:33:18.225 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:33:18.354 [TestNG-test-Healthcare Core API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:33:18.999 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:33:19.001 [TestNG-test-Healthcare Core API Tests-2] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:33:19.004 [TestNG-test-Healthcare Core API Tests-2] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:33:19.005 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:33:19.146 [TestNG-test-Healthcare Core API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Message mismatch expected [Item added to cart successfully.] but found [Paracetamol 650mg (Crocin) added to cart.]
+2026-07-06 11:33:19.215 [TestNG-test-Healthcare Core API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:33:19.216 [TestNG-test-Healthcare Core API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:33:19.840 [TestNG-test-Healthcare Core API Tests-2] ERROR listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - FAILED. Reason: HTTP Status should be 200 expected [200] but found [400]
+2026-07-06 11:33:19.842 [TestNG-test-Healthcare Core API Tests-2] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:33:19.843 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:33:19.918 [TestNG-test-Healthcare Core API Tests-1] ERROR listeners.TestListener - Test Case: testLoginWithInvalidPassword - FAILED. Reason: Error message mismatch expected [Invalid credentials.] but found [Invalid email or password.]
+2026-07-06 11:33:19.924 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:33:19.924 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:33:20.645 [TestNG-test-Healthcare Core API Tests-2] ERROR listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - FAILED. Reason: HTTP Status should be 200 expected [200] but found [400]
+2026-07-06 11:33:20.650 [TestNG-test-Healthcare Core API Tests-2] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:33:20.651 [TestNG-test-Healthcare Core API Tests-2] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:33:20.740 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:33:20.740 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:33:20.740 [TestNG-test-Healthcare Core API Tests-1] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:33:20.746 [TestNG-test-Healthcare Core API Tests-1] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:33:21.574 [TestNG-test-Healthcare Core API Tests-1] ERROR listeners.TestListener - Test Case: testValidPatientLogin - FAILED. Reason: Message should contain welcome text expected [true] but found [false]
+2026-07-06 11:33:21.910 [TestNG-test-Healthcare Core API Tests-2] ERROR listeners.TestListener - Test Case: testSuccessfulRegistration - FAILED. Reason: Message mismatch expected [Registration successful!] but found [Registration successful.]
+2026-07-06 11:33:21.914 [main] INFO  listeners.TestListener - ================ Test Suite: 'Healthcare Core API Tests' Finished ================
+2026-07-06 11:35:41.061 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:35:41.571 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:35:41.571 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:35:41.577 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:35:41.578 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:35:41.601 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:35:41.602 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:35:41.602 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:35:41.601 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:35:47.098 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testAddToCartAsGuest - FAILED. Reason: SLA violated. Response time: 3117 ms expected [true] but found [false]
+2026-07-06 11:35:47.098 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testRegistrationAndLoginChaining - FAILED. Reason: SLA violated. Response time: 3117 ms expected [true] but found [false]
+2026-07-06 11:35:47.107 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testFilterByCategory - FAILED. Reason: SLA violated. Response time: 3215 ms expected [true] but found [false]
+2026-07-06 11:35:47.118 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:35:47.118 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:35:47.120 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:35:47.121 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:35:47.122 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:35:47.124 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:35:47.126 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:35:47.129 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:35:48.300 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:35:48.308 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:35:48.312 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:35:48.313 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:35:48.673 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testGetAllMedicines - FAILED. Reason: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/discount_price"}
+    instance: {"pointer":"/medicines/0/discount_price"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/mrp"}
+    instance: {"pointer":"/medicines/0/mrp"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/rating"}
+    instance: {"pointer":"/medicines/0/rating"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+
+  Actual: {"success":true,"count":10,"total":20,"page":1,"limit":10,"medicines":[{"id":1,"name":"Paracetamol 650mg (Crocin)","manufacturer":"GlaxoSmithKline","mrp":"30.00","discount_price":"24.00","rating":"4.50","stock":118,"image":"assets\/images\/medicines\/crocin.png","category":"OTC","description":"Effective painkiller and fever reducer. Take 1 tablet every 6 hours as needed.","created_at":"2026-07-04 11:24:05"},{"id":2,"name":"Ibuprofen 400mg (Brufen)","manufacturer":"Abbott Healthcare","mrp":"45.00","discount_price":"36.00","rating":"4.30","stock":83,"image":"assets\/images\/medicines\/brufen.png","category":"OTC","description":"Non-steroidal anti-inflammatory drug (NSAID) used to relieve pain, swelling, and fever.","created_at":"2026-07-04 11:24:05"},{"id":3,"name":"Amoxicillin 500mg (Novamox)","manufacturer":"Cipla Ltd","mrp":"110.00","discount_price":"90.00","rating":"4.60","stock":58,"image":"assets\/images\/medicines\/novamox.png","category":"Prescription","description":"Broad-spectrum penicillin antibiotic used to treat various bacterial infections.","created_at":"2026-07-04 11:24:05"},{"id":4,"name":"Cetirizine 10mg (Alerid)","manufacturer":"Cipla Ltd","mrp":"35.00","discount_price":"28.00","rating":"4.20","stock":137,"image":"assets\/images\/medicines\/alerid.png","category":"OTC","description":"Antihistamine that treats symptoms of allergies such as runny nose, watery eyes, and sneezing.","created_at":"2026-07-04 11:24:05"},{"id":5,"name":"Metformin 500mg (Glycomet)","manufacturer":"USV Private Ltd","mrp":"60.00","discount_price":"52.00","rating":"4.70","stock":200,"image":"assets\/images\/medicines\/glycomet.png","category":"Prescription","description":"Oral diabetes medicine that helps control blood sugar levels for type 2 diabetes patients.","created_at":"2026-07-04 11:24:05"},{"id":6,"name":"Atorvastatin 10mg (Lipvas)","manufacturer":"Cipla Ltd","mrp":"120.00","discount_price":"98.00","rating":"4.50","stock":90,"image":"assets\/images\/medicines\/lipvas.png","category":"Prescription","description":"Statin medication used to prevent cardiovascular disease and lower cholesterol lipids.","created_at":"2026-07-04 11:24:05"},{"id":7,"name":"Pantoprazole 40mg (Pan-40)","manufacturer":"Alkem Laboratories","mrp":"150.00","discount_price":"125.00","rating":"4.60","stock":110,"image":"assets\/images\/medicines\/pan40.png","category":"Prescription","description":"Proton pump inhibitor (PPI) that decreases the amount of acid produced in the stomach.","created_at":"2026-07-04 11:24:05"},{"id":8,"name":"Azithromycin 500mg (Azee)","manufacturer":"Cipla Ltd","mrp":"119.00","discount_price":"99.00","rating":"4.40","stock":75,"image":"assets\/images\/medicines\/azee.png","category":"Prescription","description":"Macrolide-type antibiotic used for treating ear, throat, and skin bacterial infections.","created_at":"2026-07-04 11:24:05"},{"id":9,"name":"Montelukast 10mg (Montair)","manufacturer":"Cipla Ltd","mrp":"180.00","discount_price":"149.00","rating":"4.50","stock":80,"image":"assets\/images\/medicines\/montair.png","category":"Prescription","description":"Leukotriene receptor antagonist used for maintenance treatment of asthma and allergies.","created_at":"2026-07-04 11:24:05"},{"id":10,"name":"Amlodipine 5mg (Amlokind)","manufacturer":"Mankind Pharma","mrp":"28.00","discount_price":"22.00","rating":"4.30","stock":140,"image":"assets\/images\/medicines\/amlokind.png","category":"Prescription","description":"Calcium channel blocker used to treat high blood pressure and chest pain (angina).","created_at":"2026-07-04 11:24:05"}]}
+
+2026-07-06 11:35:48.686 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:35:48.687 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:35:48.831 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testLoginWithEmptyEmail - FAILED. Reason: SLA violated. Response time: 4886 ms expected [true] but found [false]
+2026-07-06 11:35:48.840 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:35:48.840 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:35:49.315 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:35:49.642 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:35:49.642 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:35:49.648 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:35:49.649 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:35:49.756 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSearchMedicines - FAILED. Reason: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/discount_price"}
+    instance: {"pointer":"/medicines/0/discount_price"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/mrp"}
+    instance: {"pointer":"/medicines/0/mrp"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/rating"}
+    instance: {"pointer":"/medicines/0/rating"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+
+  Actual: {"success":true,"count":1,"total":1,"page":1,"limit":10,"medicines":[{"id":1,"name":"Paracetamol 650mg (Crocin)","manufacturer":"GlaxoSmithKline","mrp":"30.00","discount_price":"24.00","rating":"4.50","stock":118,"image":"assets\/images\/medicines\/crocin.png","category":"OTC","description":"Effective painkiller and fever reducer. Take 1 tablet every 6 hours as needed.","created_at":"2026-07-04 11:24:05"}]}
+
+2026-07-06 11:35:49.759 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:35:49.760 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:35:50.008 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:35:50.009 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:35:50.011 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:35:50.012 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:35:50.181 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:35:50.560 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceAscending - FAILED. Reason: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/discount_price"}
+    instance: {"pointer":"/medicines/0/discount_price"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/mrp"}
+    instance: {"pointer":"/medicines/0/mrp"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/rating"}
+    instance: {"pointer":"/medicines/0/rating"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+
+  Actual: {"success":true,"count":10,"total":20,"page":1,"limit":10,"medicines":[{"id":19,"name":"Aspirin 75mg (Ecosprin)","manufacturer":"USV Private Ltd","mrp":"15.00","discount_price":"12.00","rating":"4.40","stock":220,"image":"assets\/images\/medicines\/ecosprin.png","category":"Prescription","description":"Antiplatelet blood thinner used to prevent heart attacks, strokes, and blood clots.","created_at":"2026-07-04 11:24:05"},{"id":10,"name":"Amlodipine 5mg (Amlokind)","manufacturer":"Mankind Pharma","mrp":"28.00","discount_price":"22.00","rating":"4.30","stock":140,"image":"assets\/images\/medicines\/amlokind.png","category":"Prescription","description":"Calcium channel blocker used to treat high blood pressure and chest pain (angina).","created_at":"2026-07-04 11:24:05"},{"id":1,"name":"Paracetamol 650mg (Crocin)","manufacturer":"GlaxoSmithKline","mrp":"30.00","discount_price":"24.00","rating":"4.50","stock":118,"image":"assets\/images\/medicines\/crocin.png","category":"OTC","description":"Effective painkiller and fever reducer. Take 1 tablet every 6 hours as needed.","created_at":"2026-07-04 11:24:05"},{"id":4,"name":"Cetirizine 10mg (Alerid)","manufacturer":"Cipla Ltd","mrp":"35.00","discount_price":"28.00","rating":"4.20","stock":137,"image":"assets\/images\/medicines\/alerid.png","category":"OTC","description":"Antihistamine that treats symptoms of allergies such as runny nose, watery eyes, and sneezing.","created_at":"2026-07-04 11:24:05"},{"id":14,"name":"Vitamin C 500mg (Limcee)","manufacturer":"Abbott Healthcare","mrp":"40.00","discount_price":"32.00","rating":"4.70","stock":300,"image":"assets\/images\/medicines\/limcee.png","category":"Vitamins","description":"Orange-flavored chewable Vitamin C tablet for cell protection and boosting overall immunity.","created_at":"2026-07-04 11:24:05"},{"id":20,"name":"Ranitidine 150mg (Rantac)","manufacturer":"J.B. Chemicals","mrp":"42.00","discount_price":"34.00","rating":"4.30","stock":170,"image":"assets\/images\/medicines\/rantac.png","category":"OTC","description":"Reduces stomach acid production to treat acid indigestion and prevent ulcers.","created_at":"2026-07-04 11:24:05"},{"id":2,"name":"Ibuprofen 400mg (Brufen)","manufacturer":"Abbott Healthcare","mrp":"45.00","discount_price":"36.00","rating":"4.30","stock":83,"image":"assets\/images\/medicines\/brufen.png","category":"OTC","description":"Non-steroidal anti-inflammatory drug (NSAID) used to relieve pain, swelling, and fever.","created_at":"2026-07-04 11:24:05"},{"id":16,"name":"B-Complex (Becosules)","manufacturer":"Pfizer India","mrp":"50.00","discount_price":"41.00","rating":"4.50","stock":180,"image":"assets\/images\/medicines\/becosules.png","category":"Vitamins","description":"B-complex vitamin capsule with Vitamin C to treat vitamin deficiencies and mouth ulcers.","created_at":"2026-07-04 11:24:05"},{"id":12,"name":"Omeprazole 20mg (Omez)","manufacturer":"Dr. Reddys Laboratories","mrp":"55.00","discount_price":"44.00","rating":"4.50","stock":130,"image":"assets\/images\/medicines\/omez.png","category":"OTC","description":"Helps relieve symptoms of acid reflux, heartburn, and gastroesophageal reflux disease (GERD).","created_at":"2026-07-04 11:24:05"},{"id":5,"name":"Metformin 500mg (Glycomet)","manufacturer":"USV Private Ltd","mrp":"60.00","discount_price":"52.00","rating":"4.70","stock":200,"image":"assets\/images\/medicines\/glycomet.png","category":"Prescription","description":"Oral diabetes medicine that helps control blood sugar levels for type 2 diabetes patients.","created_at":"2026-07-04 11:24:05"}]}
+
+2026-07-06 11:35:50.565 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:35:50.566 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:35:50.974 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testLoginWithInvalidPassword - FAILED. Reason: Error message mismatch expected [Invalid credentials.] but found [Invalid email or password.]
+2026-07-06 11:35:50.990 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:35:50.991 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:35:51.362 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceDescending - FAILED. Reason: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/discount_price"}
+    instance: {"pointer":"/medicines/0/discount_price"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/mrp"}
+    instance: {"pointer":"/medicines/0/mrp"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer","number"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/medicines-response-schema.json#","pointer":"/properties/medicines/items/properties/rating"}
+    instance: {"pointer":"/medicines/0/rating"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer","number"]
+
+  Actual: {"success":true,"count":10,"total":20,"page":1,"limit":10,"medicines":[{"id":9,"name":"Montelukast 10mg (Montair)","manufacturer":"Cipla Ltd","mrp":"180.00","discount_price":"149.00","rating":"4.50","stock":80,"image":"assets\/images\/medicines\/montair.png","category":"Prescription","description":"Leukotriene receptor antagonist used for maintenance treatment of asthma and allergies.","created_at":"2026-07-04 11:24:05"},{"id":7,"name":"Pantoprazole 40mg (Pan-40)","manufacturer":"Alkem Laboratories","mrp":"150.00","discount_price":"125.00","rating":"4.60","stock":110,"image":"assets\/images\/medicines\/pan40.png","category":"Prescription","description":"Proton pump inhibitor (PPI) that decreases the amount of acid produced in the stomach.","created_at":"2026-07-04 11:24:05"},{"id":13,"name":"Vitamin D3 60K UI (Calcirol)","manufacturer":"Cadila Pharmaceuticals","mrp":"140.00","discount_price":"115.00","rating":"4.80","stock":94,"image":"assets\/images\/medicines\/calcirol.png","category":"Vitamins","description":"High-potency Vitamin D supplement for bone health, muscle function, and immunity.","created_at":"2026-07-04 11:24:05"},{"id":8,"name":"Azithromycin 500mg (Azee)","manufacturer":"Cipla Ltd","mrp":"119.00","discount_price":"99.00","rating":"4.40","stock":75,"image":"assets\/images\/medicines\/azee.png","category":"Prescription","description":"Macrolide-type antibiotic used for treating ear, throat, and skin bacterial infections.","created_at":"2026-07-04 11:24:05"},{"id":17,"name":"Cough Syrup (Benadryl)","manufacturer":"Johnson & Johnson","mrp":"115.00","discount_price":"99.00","rating":"4.20","stock":85,"image":"assets\/images\/medicines\/benadryl.png","category":"OTC","description":"Soothes throat irritation and relieves cough, runny nose, and sneezing due to colds.","created_at":"2026-07-04 11:24:05"},{"id":6,"name":"Atorvastatin 10mg (Lipvas)","manufacturer":"Cipla Ltd","mrp":"120.00","discount_price":"98.00","rating":"4.50","stock":90,"image":"assets\/images\/medicines\/lipvas.png","category":"Prescription","description":"Statin medication used to prevent cardiovascular disease and lower cholesterol lipids.","created_at":"2026-07-04 11:24:05"},{"id":15,"name":"Zincovit Tablets","manufacturer":"Apex Laboratories","mrp":"110.00","discount_price":"92.00","rating":"4.60","stock":250,"image":"assets\/images\/medicines\/zincovit.png","category":"Vitamins","description":"Advanced multivitamin and multimineral tablet enriched with zinc for nutritional support.","created_at":"2026-07-04 11:24:05"},{"id":3,"name":"Amoxicillin 500mg (Novamox)","manufacturer":"Cipla Ltd","mrp":"110.00","discount_price":"90.00","rating":"4.60","stock":58,"image":"assets\/images\/medicines\/novamox.png","category":"Prescription","description":"Broad-spectrum penicillin antibiotic used to treat various bacterial infections.","created_at":"2026-07-04 11:24:05"},{"id":18,"name":"Antiseptic Liquid (Dettol)","manufacturer":"Reckitt Benckiser","mrp":"84.00","discount_price":"75.00","rating":"4.80","stock":160,"image":"assets\/images\/medicines\/dettol.png","category":"OTC","description":"First aid antiseptic liquid for cleaning wounds, cuts, and sanitizing surfaces.","created_at":"2026-07-04 11:24:05"},{"id":11,"name":"Losartan 50mg (Covance)","manufacturer":"Sun Pharma","mrp":"85.00","discount_price":"72.00","rating":"4.40","stock":95,"image":"assets\/images\/medicines\/covance.png","category":"Prescription","description":"Angiotensin II receptor antagonist used to treat hypertension (high blood pressure).","created_at":"2026-07-04 11:24:05"}]}
+
+2026-07-06 11:35:51.570 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Message mismatch expected [Cart updated successfully.] but found [Cart updated.]
+2026-07-06 11:35:51.694 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testSuccessfulRegistration - FAILED. Reason: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance type (string) does not match any allowed primitive type (allowed: ["integer"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/User/Basic_Selenium/anvnacare-api-automation/target/test-classes/schemas/register-response-schema.json#","pointer":"/properties/user/properties/id"}
+    instance: {"pointer":"/user/id"}
+    domain: "validation"
+    keyword: "type"
+    found: "string"
+    expected: ["integer"]
+
+  Actual: {"success":true,"message":"Registration successful.","user":{"id":"62","name":"Automation User b34a89fb","email":"auto.b34a89fb@anvnacare.com","role":"user"}}
+
+2026-07-06 11:35:53.225 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:35:53.225 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:35:53.227 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:35:53.227 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:35:54.011 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testValidPatientLogin - FAILED. Reason: Message should contain welcome text expected [true] but found [false]
+2026-07-06 11:35:54.014 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:36:34.041 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:36:34.420 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:36:34.420 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:36:34.421 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:36:34.423 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:36:34.448 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:36:34.449 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:36:34.448 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:36:34.448 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:36:40.414 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:36:40.423 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:36:40.437 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:36:40.438 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:36:40.439 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:36:40.452 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:36:40.453 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:36:40.453 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:36:40.456 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:36:40.458 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:36:41.338 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:36:41.340 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:36:41.346 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:36:41.347 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:36:41.626 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:36:41.626 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:36:41.633 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:36:41.635 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:36:42.221 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:36:42.222 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:36:42.227 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:36:42.229 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:36:42.514 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testRegistrationAndLoginChaining - FAILED. Reason: SLA violated. Response time: 5631 ms expected [true] but found [false]
+2026-07-06 11:36:42.535 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:36:42.540 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:36:43.244 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:36:43.427 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:36:43.428 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testLoginWithInvalidPassword - FAILED. Reason: Error message mismatch expected [Invalid credentials.] but found [Invalid email or password.]
+2026-07-06 11:36:43.430 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:36:43.437 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:36:43.437 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:36:43.446 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:36:43.449 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:36:44.335 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:36:44.476 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:36:44.480 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:36:44.494 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:36:44.495 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:36:45.196 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:36:45.197 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:36:45.202 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:36:45.208 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:36:45.453 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:36:45.454 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:36:45.457 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:36:45.459 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:36:45.908 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Schema to use cannot be null
+2026-07-06 11:36:46.040 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testValidPatientLogin - FAILED. Reason: Schema to use cannot be null
+2026-07-06 11:36:46.385 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceAscending - FAILED. Reason: Schema to use cannot be null
+2026-07-06 11:36:46.399 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:36:46.400 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:36:46.493 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testSuccessfulRegistration - FAILED. Reason: Schema to use cannot be null
+2026-07-06 11:36:47.247 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceDescending - FAILED. Reason: Schema to use cannot be null
+2026-07-06 11:36:47.263 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:37:00.091 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:37:00.424 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:37:00.424 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:37:00.424 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:37:00.424 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:37:00.449 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:37:00.449 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:37:00.449 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:37:00.449 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:37:04.885 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:37:04.893 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:37:04.897 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:37:04.899 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:37:05.701 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:37:05.702 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:37:05.703 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:37:05.704 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:37:06.105 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:37:06.106 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:37:06.106 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 65
+2026-07-06 11:37:06.108 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:37:06.109 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:37:06.109 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:37:06.112 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:37:06.124 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:37:06.124 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:37:06.127 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:37:06.128 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:37:06.618 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testLoginWithInvalidPassword - FAILED. Reason: Error message mismatch expected [Invalid credentials.] but found [Invalid email or password.]
+2026-07-06 11:37:06.630 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:37:06.632 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:37:07.117 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:37:07.118 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:37:07.119 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:37:07.119 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:37:07.486 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:37:07.486 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:37:07.488 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:37:07.490 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:37:08.394 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testValidPatientLogin - FAILED. Reason: Message should contain welcome text expected [true] but found [false]
+2026-07-06 11:37:08.922 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:37:08.923 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:37:08.925 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:37:08.926 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:37:08.982 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:37:09.799 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:37:09.822 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:37:09.823 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:37:09.825 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:37:09.827 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:37:09.948 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:37:09.948 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:37:09.959 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:37:09.960 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:37:10.738 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:37:10.739 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:37:10.741 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:37:10.743 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:37:10.809 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Message mismatch expected [Cart updated successfully.] but found [Cart updated.]
+2026-07-06 11:37:12.899 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:37:12.899 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:37:12.899 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:37:12.899 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:37:13.497 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED
+2026-07-06 11:37:13.497 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testSuccessfulRegistration - PASSED
+2026-07-06 11:37:14.540 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:37:14.540 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:37:14.540 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:38:12.179 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:38:12.179 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:38:12.824 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:38:12.824 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:38:12.824 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:38:12.826 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:38:12.862 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:38:12.862 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:38:12.870 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:38:12.870 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:38:12.880 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:38:12.882 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:38:12.890 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:38:12.892 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:38:12.905 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:38:12.936 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:38:12.842 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:38:12.960 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:38:18.803 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:38:18.807 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:38:18.810 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:38:18.811 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:38:19.641 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 67
+2026-07-06 11:38:19.903 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:38:19.906 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:38:19.911 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:38:19.915 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:38:19.915 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:38:19.920 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:38:20.249 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:38:20.250 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:38:20.252 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:38:20.252 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:38:20.400 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:38:20.400 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:38:20.406 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:38:20.406 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:38:20.425 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 68
+2026-07-06 11:38:20.578 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:38:20.588 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:38:20.589 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:38:20.590 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:38:20.870 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:38:20.870 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:38:20.873 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:38:20.873 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:38:20.889 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:38:20.890 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:38:20.892 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:38:20.893 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:38:21.105 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:38:21.105 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:38:21.110 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:38:21.112 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:38:21.614 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:38:21.617 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:38:21.620 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:38:21.621 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:38:21.621 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:38:21.626 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:38:21.785 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:38:21.787 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:38:21.789 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:38:21.790 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:38:21.916 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:38:21.917 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:38:21.919 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:38:21.920 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:38:22.053 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:38:22.232 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:38:22.232 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:38:22.236 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:38:22.238 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:38:22.551 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:38:22.551 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:38:22.555 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:38:22.556 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:38:22.655 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:38:22.656 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:38:22.657 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:38:22.657 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:38:22.818 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:38:22.819 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:38:22.820 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:38:22.821 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:38:22.949 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:38:22.951 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:38:22.956 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:38:22.958 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:38:22.966 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:38:23.071 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:38:23.071 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:38:23.073 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:38:23.074 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:38:23.769 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:38:23.834 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 3: Removing medicine ID 1 from cart
+2026-07-06 11:38:23.860 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED
+2026-07-06 11:38:23.861 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testSuccessfulRegistration - PASSED
+2026-07-06 11:38:23.946 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:38:23.947 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:38:23.951 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:38:23.952 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:38:24.264 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidPatientLogin - PASSED
+2026-07-06 11:38:24.265 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidPatientLogin - PASSED
+2026-07-06 11:38:24.395 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:38:24.395 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:38:24.542 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:38:24.542 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:38:24.547 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:38:24.548 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:38:24.776 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Message mismatch expected [Item removed from cart successfully.] but found [Item removed from cart.]
+2026-07-06 11:38:24.896 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:38:24.929 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:38:24.930 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:38:24.932 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:38:24.933 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:38:25.326 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:38:25.328 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:38:25.330 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:38:25.331 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:38:25.756 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:38:25.756 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:38:25.758 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:38:25.759 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:38:25.763 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:38:25.764 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:38:25.766 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:38:25.766 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:38:26.479 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 3: Removing medicine ID 1 from cart
+2026-07-06 11:38:26.541 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidPatientLogin - PASSED
+2026-07-06 11:38:26.542 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidPatientLogin - PASSED
+2026-07-06 11:38:26.544 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:38:26.835 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:38:26.835 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:38:26.901 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:38:26.903 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:38:26.908 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:38:26.908 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:38:27.280 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: Message mismatch expected [Item removed from cart successfully.] but found [Item removed from cart.]
+2026-07-06 11:38:27.959 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED
+2026-07-06 11:38:27.964 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testSuccessfulRegistration - PASSED
+2026-07-06 11:38:27.966 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:38:55.504 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:38:55.934 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:38:55.934 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:38:55.934 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:38:55.935 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:38:55.961 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:38:55.961 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:38:55.962 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:38:55.961 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:39:02.262 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:39:02.268 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:39:02.277 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:39:02.279 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:39:02.281 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:39:02.285 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:39:02.381 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:39:02.383 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:39:02.387 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:39:02.389 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:39:02.884 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 71
+2026-07-06 11:39:02.891 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:39:02.892 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:39:02.896 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:39:02.898 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:39:03.413 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:39:03.414 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:39:03.417 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:39:03.419 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:39:03.978 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testRegistrationAndLoginChaining - FAILED. Reason: null
+2026-07-06 11:39:04.000 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:39:04.004 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:39:04.581 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:39:04.582 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:39:04.584 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:39:04.586 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:39:04.795 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:39:04.941 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:39:04.943 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:39:04.945 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:39:04.946 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:39:05.170 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSearchMedicines - FAILED. Reason: null
+2026-07-06 11:39:05.170 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:39:05.176 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:39:05.818 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:39:05.818 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:39:05.821 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:39:05.822 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:39:05.995 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceAscending - FAILED. Reason: null
+2026-07-06 11:39:06.005 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:39:06.008 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:39:06.012 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:39:06.013 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:39:06.020 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:39:06.027 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:39:06.614 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testValidAdminLogin - FAILED. Reason: null
+2026-07-06 11:39:06.617 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:39:06.620 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:39:07.071 [TestNG-test-Regression API Tests-1] ERROR listeners.TestListener - Test Case: testSuccessfulRegistration - FAILED. Reason: null
+2026-07-06 11:39:07.526 [TestNG-test-Regression API Tests-2] ERROR listeners.TestListener - Test Case: testValidPatientLogin - FAILED. Reason: null
+2026-07-06 11:39:07.553 [TestNG-test-Regression API Tests-3] ERROR listeners.TestListener - Test Case: testSortByPriceDescending - FAILED. Reason: null
+2026-07-06 11:39:07.751 [TestNG-test-Regression API Tests-4] ERROR listeners.TestListener - Test Case: testCartEndToEndWorkflow - FAILED. Reason: null
+2026-07-06 11:39:07.754 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:39:18.892 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:39:19.279 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:39:19.279 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:39:19.279 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:39:19.281 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:39:19.307 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:39:19.307 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:39:19.308 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:39:19.307 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:39:25.206 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 73
+2026-07-06 11:39:25.552 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:39:25.552 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:39:25.560 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:39:25.562 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:39:26.378 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:39:26.379 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:39:26.381 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:39:26.382 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:39:26.491 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:39:26.494 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:39:26.497 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:39:26.498 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:39:27.209 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:39:27.210 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:39:27.211 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:39:27.212 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:39:27.293 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:39:27.294 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:39:27.296 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:39:27.297 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:39:27.500 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:39:27.501 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:39:27.505 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:39:27.505 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:39:27.506 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:39:27.508 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:39:28.147 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:39:28.147 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:39:28.150 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:39:28.151 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:39:28.346 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:39:28.346 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:39:28.353 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:39:28.354 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:39:28.551 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:39:28.551 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:39:28.553 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:39:28.555 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:39:29.392 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:39:29.392 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:39:29.538 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:39:29.539 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:39:29.541 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:39:29.546 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:39:30.165 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:39:30.166 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:39:30.170 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:39:30.171 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:39:30.370 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:39:30.395 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidPatientLogin - PASSED
+2026-07-06 11:39:30.396 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidPatientLogin - PASSED
+2026-07-06 11:39:30.978 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:39:30.979 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:39:30.987 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:39:30.992 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:39:31.356 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:39:32.352 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 3: Removing medicine ID 1 from cart
+2026-07-06 11:39:32.454 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED
+2026-07-06 11:39:32.455 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testSuccessfulRegistration - PASSED
+2026-07-06 11:39:33.206 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testCartEndToEndWorkflow - PASSED
+2026-07-06 11:39:33.207 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testCartEndToEndWorkflow - PASSED
+2026-07-06 11:39:33.210 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:40:02.079 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Started ================
+2026-07-06 11:40:02.450 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testAddToCartAsGuest
+2026-07-06 11:40:02.450 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationAndLoginChaining
+2026-07-06 11:40:02.452 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testFilterByCategory
+2026-07-06 11:40:02.451 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyEmail
+2026-07-06 11:40:02.477 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyEmail
+2026-07-06 11:40:02.477 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationAndLoginChaining
+2026-07-06 11:40:02.477 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testFilterByCategory
+2026-07-06 11:40:02.477 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testAddToCartAsGuest
+2026-07-06 11:40:07.813 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - User registered successfully. Assigned ID: 75
+2026-07-06 11:40:08.229 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testFilterByCategory - PASSED
+2026-07-06 11:40:08.229 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testFilterByCategory - PASSED
+2026-07-06 11:40:08.240 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testGetAllMedicines
+2026-07-06 11:40:08.241 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testGetAllMedicines
+2026-07-06 11:40:08.914 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:40:08.915 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyEmail - PASSED
+2026-07-06 11:40:08.918 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithEmptyPassword
+2026-07-06 11:40:08.919 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithEmptyPassword
+2026-07-06 11:40:09.042 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testGetAllMedicines - PASSED
+2026-07-06 11:40:09.042 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testGetAllMedicines - PASSED
+2026-07-06 11:40:09.045 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSearchMedicines
+2026-07-06 11:40:09.046 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSearchMedicines
+2026-07-06 11:40:09.356 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:40:09.358 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationAndLoginChaining - PASSED
+2026-07-06 11:40:09.360 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:40:09.360 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithInvalidPhone
+2026-07-06 11:40:09.889 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSearchMedicines - PASSED
+2026-07-06 11:40:09.890 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSearchMedicines - PASSED
+2026-07-06 11:40:09.892 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceAscending
+2026-07-06 11:40:09.893 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceAscending
+2026-07-06 11:40:10.172 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:40:10.172 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithInvalidPhone - PASSED
+2026-07-06 11:40:10.177 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testRegistrationFailsWithShortPassword
+2026-07-06 11:40:10.178 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testRegistrationFailsWithShortPassword
+2026-07-06 11:40:10.265 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:40:10.265 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithEmptyPassword - PASSED
+2026-07-06 11:40:10.269 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testLoginWithInvalidPassword
+2026-07-06 11:40:10.269 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testLoginWithInvalidPassword
+2026-07-06 11:40:11.015 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceAscending - PASSED
+2026-07-06 11:40:11.015 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceAscending - PASSED
+2026-07-06 11:40:11.018 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Executing Test Case: testSortByPriceDescending
+2026-07-06 11:40:11.019 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Starting Test: testSortByPriceDescending
+2026-07-06 11:40:11.076 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:40:11.077 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testLoginWithInvalidPassword - PASSED
+2026-07-06 11:40:11.078 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidAdminLogin
+2026-07-06 11:40:11.079 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidAdminLogin
+2026-07-06 11:40:11.785 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:40:11.785 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testRegistrationFailsWithShortPassword - PASSED
+2026-07-06 11:40:11.788 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Executing Test Case: testSuccessfulRegistration
+2026-07-06 11:40:11.789 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:40:11.916 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidAdminLogin - PASSED
+2026-07-06 11:40:11.916 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidAdminLogin - PASSED
+2026-07-06 11:40:11.918 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Executing Test Case: testValidPatientLogin
+2026-07-06 11:40:11.919 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Starting Test: testValidPatientLogin
+2026-07-06 11:40:11.992 [TestNG-test-Regression API Tests-3] INFO  tests.MedicinesTests - Finished Test: testSortByPriceDescending - PASSED
+2026-07-06 11:40:11.992 [TestNG-test-Regression API Tests-3] INFO  listeners.TestListener - Test Case: testSortByPriceDescending - PASSED
+2026-07-06 11:40:12.459 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testAddToCartAsGuest - PASSED
+2026-07-06 11:40:12.461 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testAddToCartAsGuest - PASSED
+2026-07-06 11:40:12.461 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Executing Test Case: testCartEndToEndWorkflow
+2026-07-06 11:40:12.461 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Starting Test: testCartEndToEndWorkflow
+2026-07-06 11:40:12.463 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 1: Adding medicine ID 1 to cart
+2026-07-06 11:40:12.465 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Session not found. Initializing login flow for Role: user in Environment: qa
+2026-07-06 11:40:12.835 [TestNG-test-Regression API Tests-1] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED
+2026-07-06 11:40:12.835 [TestNG-test-Regression API Tests-1] INFO  listeners.TestListener - Test Case: testSuccessfulRegistration - PASSED
+2026-07-06 11:40:13.815 [TestNG-test-Regression API Tests-2] INFO  tests.LoginTests - Finished Test: testValidPatientLogin - PASSED
+2026-07-06 11:40:13.815 [TestNG-test-Regression API Tests-2] INFO  listeners.TestListener - Test Case: testValidPatientLogin - PASSED
+2026-07-06 11:40:14.289 [TestNG-test-Regression API Tests-4] INFO  utils.SessionManager - Successfully established session for user. PHPSESSID cookie extracted.
+2026-07-06 11:40:16.764 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 2: Updating quantity of medicine ID 1 in cart to 5
+2026-07-06 11:40:18.187 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Step 3: Removing medicine ID 1 from cart
+2026-07-06 11:40:19.061 [TestNG-test-Regression API Tests-4] INFO  tests.CartTests - Finished Test: testCartEndToEndWorkflow - PASSED
+2026-07-06 11:40:19.061 [TestNG-test-Regression API Tests-4] INFO  listeners.TestListener - Test Case: testCartEndToEndWorkflow - PASSED
+2026-07-06 11:40:19.061 [main] INFO  listeners.TestListener - ================ Test Suite: 'Regression API Tests' Finished ================
+2026-07-06 11:43:50.025 [main] INFO  tests.RegisterTests - Starting Test: testSuccessfulRegistration
+2026-07-06 11:43:55.623 [main] INFO  tests.RegisterTests - Finished Test: testSuccessfulRegistration - PASSED

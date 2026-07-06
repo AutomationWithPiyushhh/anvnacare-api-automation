@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MedicinesResponseSchema",
+  "type": "object",
+  "properties": {
+    "success": { "type": "boolean" },
+    "medicines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "manufacturer": { "type": "string" },
+          "category": { "type": "string" },
+          "rating": { "type": ["number", "string"] },
+          "stock": { "type": "integer" },
+          "discount_price": { "type": ["number", "string"] },
+          "mrp": { "type": ["number", "string"] }
+        },
+        "required": ["id", "name", "manufacturer", "category", "stock", "discount_price", "mrp"]
+      }
+    }
+  },
+  "required": ["success", "medicines"]
+}
