@@ -21,10 +21,12 @@ public class RegisterAPI {
      * @return Rest Assured Response object
      */
     public static Response performRegistration(RegisterRequest payload) {
-        return RestAssured.given()
-                .spec(BaseAPI.getRequestSpec())
-                .body(payload)
+        return RestAssured
+        		.given()
+	        		.log().all()
+	                .spec(BaseAPI.getRequestSpec())
+	                .body(payload)
                 .when()
-                .post(Routes.REGISTER);
+                	.post(Routes.REGISTER);
     }
 }
