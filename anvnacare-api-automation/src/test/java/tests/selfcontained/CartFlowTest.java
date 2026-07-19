@@ -21,7 +21,7 @@ public class CartFlowTest {
 
     private static final Logger logger = LogManager.getLogger(CartFlowTest.class);
 
-    @Test(description = "Verify adding to cart as a guest (unauthenticated) succeeds and starts a guest session")
+    @Test
     public void testAddToCartAsGuest() {
         logger.info("Starting Test: CartFlowTest.testAddToCartAsGuest");
 

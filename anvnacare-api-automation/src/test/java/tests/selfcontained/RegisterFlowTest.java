@@ -66,10 +66,10 @@ public class RegisterFlowTest {
 
 	    Response loginResponse = RestAssured
 	            .given()
-	            .baseUri("https://anvnacare.alwaysdata.net/")
-	            .contentType("application/json")
-	            .body(loginBody)
-	            .post("api/login.php");
+		            .baseUri("https://anvnacare.alwaysdata.net/")
+		            .contentType("application/json")
+		            .body(loginBody)
+		            .post("api/login.php");
 
 	    // Print Response
 	    System.out.println("\n===== LOGIN RESPONSE =====");
@@ -111,7 +111,10 @@ public class RegisterFlowTest {
 		payload.put("password", "password123");
 
 		// Act - API Call
-		Response response = RestAssured.given(BaseAPI.getRequestSpec()).body(payload).post("api/register.php");
+		Response response = RestAssured
+								.given(BaseAPI.getRequestSpec())
+									.body(payload)
+									.post("api/register.php");
 
 		// Assert
 		Assert.assertEquals(response.getStatusCode(), 200, "HTTP Status mismatch");
